@@ -1,6 +1,6 @@
 ### Hello :wave:
-
-- 🎓 I am a software developer working on my masters degree at the University of Oulu.
+- 👷 I am a software developer working at the University of Oulu.
+- 🎓 Graduated with MSc in Computer Science and Engineering in November 2025.
 - 🐧 I am a linux enthusiast; been using it as my daily driver for years.
 - ✅ I enjoy automating things, from development workflows to deployments.
 
