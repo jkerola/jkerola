@@ -45,14 +45,14 @@
     #line(stroke: white, length: 180pt)
     *Eero Huttunen* \
     #small([
-      Project Manager, Allied ICT Finland \
+      Project Manager, ITEE O&D \
       #link("tel:+358 50 591 8859") \
       #link("mailto:eero.j.huttunen@oulu.fi")
     ])
 
     *Tellervo Kivistö* \
     #small([
-      Project Manager, Allied ICT Finland \
+      Project Manager, ITEE O&D \
       #link("tel:+358 29 448 7420") \
       #link("mailto:tellervo.kivisto@oulu.fi")
     ])
@@ -67,7 +67,7 @@
 #section(icon: "briefcase", "Professional Experience")[
 
   === Software Developer #h(1fr) 2021 - Ongoing
-  AIC-Software team, University of Oulu
+  ITEE O&D, University of Oulu
 
   - Worked in various web-, mobile- and embedded software development projects
   - Designed, developed and deployed large cloud-centric applications based on client requirements
