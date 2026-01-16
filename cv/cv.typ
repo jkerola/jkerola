@@ -1,64 +1,68 @@
 #import "@preview/metronic:1.1.0": *
-#import "vars.typ": email, github, phone, location
+#import "vars.typ": email, github, phone, location, linkedin
 
 // Default colors 61B7AE and F2F0EF
 #theme(accent-color: rgb("#4b656b"), background-color: rgb("F2F0EF"))
 
-#show: resume-page.with(
-  sidebar: [
-    #align(center, box(image("profile.png", width: 80pt), radius: 50%, clip: true, stroke: 2pt + white))
+#show: resume-page.with(sidebar: [
+  #align(center, box(image("profile.png", width: 80pt), radius: 50%, clip: true, stroke: 2pt + white))
 
-    = Janne Kerola
+  = Janne Kerola
 
-    #medium("Software Developer")
+  #medium("Software Developer")
 
-    5 years of experience working as a software developer in a multi-professional team.
+  5 years of experience working as a software developer in a multi-professional team.
 
-    Worked on multiple projects for a variety of clients and received great feedback and praise for my efforts.
+  Worked on multiple projects for a variety of clients and received great feedback and praise for my efforts.
 
-    Able to quickly pickup new technologies, languages and methods and always looking to learn more.
+  Able to quickly pickup new technologies, languages and methods and always looking to learn more.
 
-    #contact(phone: link("tel:" + phone), github: link(github), email: link("mailto:" + email), location: location)
-    #v(5pt)
-    #section(icon: "university", "Education")[
-      #v(-18pt)
-      #line(stroke: white, length: 180pt)
-      #text(size: 11pt)[
-        *MSc, Computer Science and Engineering* \
-        University of Oulu (2023-2025)
-
-        *BA, Computer Science and Engineering* \
-        University of Oulu (2018-2023)
-
-        *Mechanical Engineering (158 credits),* \
-        University of Oulu (2012-2016)
-      ]
-    ]
-
-    #section(icon: "person", "References")[
-      #v(-18pt)
-      #line(stroke: white, length: 180pt)
-      *Eero Huttunen* \
-      #small([
-        Project Manager, Allied ICT Finland \
-        #link("tel:+358 50 591 8859") \
-        #link("mailto:eero.j.huttunen@oulu.fi")
-      ])
-
-      *Tellervo Kivistö* \
-      #small([
-        Project Manager, Allied ICT Finland \
-        #link("tel:+358 29 448 7420") \
-        #link("mailto:tellervo.kivisto@oulu.fi")
-      ])
-    ]
-
-    == #fa-icon("earth-americas", solid: false) Languages
-    #v(-2pt)
+  #contact(
+    phone: link("tel:" + phone),
+    github: link(github),
+    email: link("mailto:" + email),
+    location: location,
+    linkedin: link(linkedin, linkedin.slice(20, -1)),
+  )
+  #v(5pt)
+  #section(icon: "university", "Education")[
+    #v(-18pt)
     #line(stroke: white, length: 180pt)
-    #tags("Finnish", "English", "German")
-  ],
-)
+    #text(size: 11pt)[
+      *MSc, Computer Science and Engineering* \
+      University of Oulu (2023-2025)
+
+      *BA, Computer Science and Engineering* \
+      University of Oulu (2018-2023)
+
+      *Mechanical Engineering (158 credits),* \
+      University of Oulu (2012-2016)
+    ]
+  ]
+
+  #section(icon: "person", "References")[
+    #v(-18pt)
+    #line(stroke: white, length: 180pt)
+    *Eero Huttunen* \
+    #small([
+      Project Manager, Allied ICT Finland \
+      #link("tel:+358 50 591 8859") \
+      #link("mailto:eero.j.huttunen@oulu.fi")
+    ])
+
+    *Tellervo Kivistö* \
+    #small([
+      Project Manager, Allied ICT Finland \
+      #link("tel:+358 29 448 7420") \
+      #link("mailto:tellervo.kivisto@oulu.fi")
+    ])
+  ]
+
+  == #fa-icon("earth-americas", solid: false) Languages
+  #v(-2pt)
+  #line(stroke: white, length: 180pt)
+  #tags("Finnish", "English", "German")
+])
 
 #section(icon: "briefcase", "Professional Experience")[
 
