@@ -66,7 +66,7 @@
 
 #section(icon: "briefcase", "Professional Experience")[
 
-  === Software Developer / RA #h(1fr) 2021 - Ongoing
+  === Software Developer #h(1fr) 2021 - Ongoing
   AIC-Software team, University of Oulu
 
   - Worked in various web-, mobile- and embedded software development projects
@@ -76,15 +76,6 @@
   - Maintenance and monitoring of existing projects and services
   - Built team-wide working guidelines and best-practices
   - Onboarded and trained new software developers
-
-  #v(10pt)
-
-  === Summer Jobs #h(1fr) 2010-2019
-
-  - Roadside maintenance, Värväämö Oy 2019
-  - Cold storage, Inex Partners 2014-2016
-  - Park maintenance, City of Kalajoki 2010-2012, 2017
-
 ]
 
 #section(icon: "terminal", "Developer Skills")[
@@ -104,7 +95,8 @@
   - Familiar with automated QA, test suites and report generation
   - Minor hobby and school projects with C, C++ and Rust
 
-  === Languages and Technologies
+  #v(20pt)
+  === Languages, Concepts and Technologies
   #tags(
     "Angular",
     "React",
@@ -112,18 +104,20 @@
     "Docker / Podman",
     "Devops",
     "Kubernetes",
-    "GH Actions / Jenkins",
-    "REST",
+    "CI/CD",
+    "REST-like APIs",
     "Flutter",
     "AWS",
+    "CSC",
     "Ansible / Terraform",
-    "Python",
-    "Typescript / Javascript",
+    "C / C++",
     "Dart",
     "Java",
+    "Python",
     "Rust",
-    "C / C++",
     "SQL",
+    "Typescript / Javascript",
+    "Linux",
   )
 
 ]
